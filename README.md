@@ -16,9 +16,10 @@ The following scaled DataFrame was created:
 
 ## Exploration of scaled data
 
-The *elbow method* was used to determine the ideal number of clusters. From the plot, it can be observed that the optimal k value of 4.
+The *elbow method* was used to determine the ideal number of clusters. From the plot, it can be observed that the optimal k value is 4.
 
 <img width="728" alt="Screenshot 2023-09-04 at 14 57 20" src="https://github.com/ashejaz/CryptoClustering/assets/127614970/5157d189-cdaf-4777-b3f8-cd47fcfbb8e9">
+
 
 A *K-means model* was then used to cluster the data based on the ideal k-value of 4. The following scatter plot was created:
 
