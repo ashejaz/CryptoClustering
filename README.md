@@ -1,6 +1,6 @@
 ## Overview
 
-For the project, unsupervised machine learning techniques were deployed to cluster changes in cryptocurrencies.
+For this project, unsupervised machine learning techniques were deployed to cluster changes in cryptocurrencies.
 
 The following data was imported into a Pandas DataFrame:
 
@@ -52,3 +52,12 @@ PCA did not give a different ideal k-value compared with the original scaled dat
 
 However, by reducing the features to 3, the clusters become more distinct and it is easier to see 'celsius-degree-token" as a separate/outlying datapoint.
 
+## Files
+
+The raw data can be found in CSV format [here](Resources/crypto_market_data.csv).
+
+The jupyter notebook containing the analysis can be found [here](Crypto_Clustering.ipynb).
+
+## References
+
+The data used in this project was generated for edX Bootcamps LLC.
