@@ -30,7 +30,7 @@ We can observe 2 main clusters with the currencies in red and yellow appearing t
 
 ## Principal Component Analysis
 
-A PCA when then performed on the scaled data to reduce the number of features to three principal components.
+A PCA was then performed on the scaled data to reduce the number of features to three principal components.
 
 The following DataFrame was created:
 
@@ -50,7 +50,13 @@ K-means clustering yielded the following scatter plot:
 
 PCA did not give a different ideal k-value compared with the original scaled data.
 
-However, by reducing the features to 3, the clusters become more distinct and it is easier to see 'celsius-degree-token" as a separate/outlying datapoint.
+<img width="728" alt="Screenshot 2023-09-04 at 14 57 20" src="https://github.com/ashejaz/CryptoClustering/assets/127614970/f5e5ccae-212c-474b-b4a3-c615a2923d66">
+<img width="789" alt="Screenshot 2023-09-04 at 14 57 42" src="https://github.com/ashejaz/CryptoClustering/assets/127614970/c215f0a9-d164-4029-8461-4b778f1e86c3">
+
+However, by reducing the features to 3, the clusters become more distinct and it is easier to see 'celsius-degree-token" as a separate/outlying datapoint. Though the PCA clusters were cleaner and easier to visualise, the overall results were similar to the clusters formed from the original scaled data. The benefits of using fewer features may be better demonstrated with a larger dataset.
+
+<img width="727" alt="Screenshot 2023-09-04 at 14 57 31" src="https://github.com/ashejaz/CryptoClustering/assets/127614970/8d6af361-e8b0-45da-89dc-e185ac9e9043">
+<img width="713" alt="Screenshot 2023-09-04 at 14 57 57" src="https://github.com/ashejaz/CryptoClustering/assets/127614970/bbef5feb-3d0b-408d-9d3b-f1c3a82b0bff">
 
 ## Files
 
